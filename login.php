@@ -48,7 +48,7 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Edwin Oduor - login page</title>
+  <title>Login page</title>
   <?php require_once("bootstrap.php"); ?>
 </head>
 <body>
@@ -69,5 +69,7 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
     <input type="submit" name="cancel" value="Cancel">
   </form>
 </div>
-</body>
+</body>  
+
+<!-- Password hard-coded to php123 for now -->
 </html>

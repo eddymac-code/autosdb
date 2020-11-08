@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <title>Edwin Oduor - Autos</title>
+  <title>Autos DB</title>
   <?php require_once("bootstrap.php"); ?>
 </head>
 <body>
@@ -14,8 +14,8 @@ session_start();
   <a href="login.php">Please Log In</a>
   </p>
 
-  <p>Any attempts to <a href="add.php">add a vehicle</a>
-  	or <a href="view.php">view the list</a> without
+  <p>Any attempts to <a href="add.php">Add a vehicle</a>
+  	or <a href="view.php">View the vehicle list</a> without
     logging in will fail and give an error message.</p>
 </div>
 </body>
